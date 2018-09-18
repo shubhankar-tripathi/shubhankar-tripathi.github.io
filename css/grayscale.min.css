@@ -172,7 +172,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   left: 0;
   width: 100vw;
   height: 100%;
-  background: url("http://findmatthew.com/style/../img/filler.png") center center/cover; }
+  background: url("/img/hom3.png") center center/cover; }
 
 bot{
 bottom: 0;
@@ -415,6 +415,8 @@ section:nth-of-type(2) .text {
     animation: fadeIn .75s ease both; }
   .animated.pop-in {
     animation: popIn 1s both; }
+  .canvas {
+    background: #252934; }
 
   .button {
     font-size: 16pt; }
