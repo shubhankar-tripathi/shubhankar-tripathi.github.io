@@ -178,7 +178,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 section {
   padding: 70px 0 70px 0;
   color: #fff;
-  line-height: 11pt;
+  line-height: 18pt;
   position: relative; }
   section .container {
     max-width: 1200px;
@@ -220,11 +220,12 @@ section {
         transition: left .5s ease-in-out; }
         section:nth-of-type(2) .float-bar .row .filter {
           color: #fff; }
-    section:nth-of-type(2) .text {
-      top: 0;
-      left: 0;
-      position: absolute;
-      width: 100%; }
+section:nth-of-type(2) .text {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
     section:nth-of-type(2) #gallery {
       margin: 20px 0; }
       section:nth-of-type(2) #gallery .text, section:nth-of-type(2) #gallery .button {
@@ -337,7 +338,6 @@ section {
       height: 30px; }
     section:nth-of-type(2) #gallery .mix .card {
       height: 300px; }
-
 
 .modal-wrap {
   height: 100vh;
