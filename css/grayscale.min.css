@@ -296,7 +296,7 @@ section:nth-of-type(2) .text {
           bottom: 24%; }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   section:nth-of-type(2) #gallery .mix .card {
     width: 100vw; } }
 @media screen and (min-width: 600px) {
