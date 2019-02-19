@@ -426,3 +426,13 @@ section:nth-of-type(2) .text {
     margin: 0 25px; }
  }
  
+ html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+ #particle-canvas {
+  width: 100%;
+  height: 100%;
+}
