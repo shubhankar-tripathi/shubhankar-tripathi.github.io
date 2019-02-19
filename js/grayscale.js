@@ -1,7 +1,7 @@
 (function($) {
   "use strict"; // Start of use strict
 
-    
+
   $('h1').blast({
   delimiter: 'character'
 });
@@ -44,5 +44,3 @@
   $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
-
-
