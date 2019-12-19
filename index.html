@@ -25,7 +25,10 @@
             outlineColour: '#252627',
             reverse: true,
             depth: 0.8,
-            maxSpeed: 0.05
+            maxSpeed: 0.05,
+			wheelZoom: false,
+			shape:	"sphere",
+			stretchX: 2
           });
         } catch(e) {
           // something went wrong, hide the canvas container
@@ -241,14 +244,12 @@
 	<!-- Skills Section -->
 	<section id="skills-charts" class="content-section text-center">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 mx-auto">
-					<h2>Skills & Experience</h2>
+					<h2 class ="text-center">Skills& Experience</h2>
 					    <div id="myCanvasContainer">
-      <canvas width="700" height="500" id="myCanvas">
-        <p>Anything in here will be replaced on browsers that support the canvas element</p>
-      </canvas>
-    </div>
+							<canvas width="700" height="500" id="myCanvas">
+								<p>Anything in here will be replaced on browsers that support the canvas element</p>
+							</canvas>
+						</div>
 					    <div id="tags">
 							<ul>
 								<li><a>CSS</a></li>
@@ -266,8 +267,6 @@
 								<li><a>EBX</a></li>								
 							</ul>
 						</div>
-				</div>
-			</div>
 		</div>
 	</section>
 
