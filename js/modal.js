@@ -4,32 +4,26 @@ $(document).ready(function(){
   var modalText = {
     datavis: {
       title: 'Data Visualization',
-      detail: 'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
       link: 'https://github.com/shubhankar1201/Data_Visualization'
     },
     orderbook: {
       title: 'Consolidated Orderbook',
-      detail: 'Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.',
 	  link: 'https://github.com/shubhankar1201/Consolidated_OrderBook'
     },
     riotchat: {
       title: 'RiotChat',
-      detail: 'Powur is a multi-level marketing platform for lead generation, recruitment, and team building. Built with Ruby on Rails and Angular-UI. Makes use of Angular-material for front-end visuals. Features complex user tree heiarchy and commission system.',
       link: 'http://www.powur.com/with/42'
     },
     piu: {
       title: 'Profiling Internet Users',
-      detail: 'MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.',
 	  link: 'https://github.com/shubhankar1201/Profiling-Internet-Users'
     },
     compaccess: {
       title: 'Computer Accessories Inventory Application',
-      detail: 'NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.',
 	  link: 'https://github.com/shubhankar1201/ComputerAccessories'
     },
     evolalgo: {
       title: 'Basic Evolutionary Algorithm',
-      detail: 'The Mall is a place to follow the latest fashion purchases of your friends and favorite celebrities. Built with Node.js and Handlebars. Features the ability to import thousands of top brands products into one shopping site.',
 	  link: 'https://github.com/shubhankar1201/Basic-Evolutionary-Algorithm'
 	}
   };
